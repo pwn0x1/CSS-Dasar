@@ -1,0 +1,15 @@
+/* Belajar background
+https://www.toptal.com/designers/subtlepatterns/
+
+background-color : Mengatur warna pada background
+background-image : Mengatur gambar yang akan digunakan pada background [url]
+background-position : Mengatur posisi background pada gambar [repeat-x, repeat-y, no-repeat]
+background-repeat : Mengatur jenis pengulangan gambar pada background [top left, top center, top right,center left, center center, centerright, bottom left, bottom center, bottom right, x% y%, x-pos y-pos]
+*/
+
+body {
+    background-color: lightblue;
+    background-image: url(gambar/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: top ;
+}

@@ -1,0 +1,25 @@
+/* Belajar teks style
+https://pinetools.com/c-colors/
+
+color = memberi warna pada tulisan [red, #ff0000, rgb(255,0,0,)]
+text-align = mengatur format paragraf/teks [left, right, center, justify]
+text-indent = memberi identasi pada paragraf/ teks [px,%]
+text-decoration = mengatur dekorasi pada teks [none, underline, overline, line-through]
+text-transform = mengubah jenis huruf menjadi huruf besar, kecil / kapital [none, lowercase,uppercase,capitalize]
+letter-spacing = mengatur spasi antar huruf [normal, px]
+word-spacing = mengatur spasi antar kata [normal, px]
+*/
+
+h1 {
+    font-size: 150px;
+    color: skyblue;
+}
+
+p {
+    text-indent: 100px;
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+}

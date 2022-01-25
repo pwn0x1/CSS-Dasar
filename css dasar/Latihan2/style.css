@@ -1,0 +1,26 @@
+/*  Belajar Font style
+    font-family = mengatur jenis font yang digunakanan [nama font, generic family]
+    font-size = mengatur ukuran font [px,%,em]
+    font-weight = mengatur ketebalan font [lighter, normal, 100-900,bold, bolder]
+    font-variant = mengubah font menjadi small caps [normal, small-caps] 
+    font-style = mengubah font menjadi bercetak miring [normal, italic, obilique]
+    line-height = mengatur spasi antar baris [normal, px, em]
+*/
+
+
+h1 {
+    font-family: arial, verdana, sans-serif;
+    font-size: 100px;
+    font-style: italic;
+    font-variant: small-caps;
+    
+}
+p {
+    font-family: georgia, serif;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+#paragraf2 {
+    font: italic normal bold 12px/18px helvetica,arial, sans-serif;
+}

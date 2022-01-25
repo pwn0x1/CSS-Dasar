@@ -1,0 +1,38 @@
+/* 
+    pseudo-class yang berhubungan dengan link
+    :link = style default pada sebuah link (a yang memiliki href)
+    :hover = style ketika kursosr mouse berada diatas sebuah link/elemen
+    :active = style ketika sebuah link di-klik (keadaan aktif)
+    :visited = style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+
+    pseudo-class yang berhubungan dengan posisi elemen(1)
+    :first-child = memilih element pertama dari sebuah parent (elemen pembungkusnya)
+    :last-child = memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+    :nth-child() = memilih elemen ke-n dari sebuah parent (elemen pembungkusnya), n bisa berarti urutan (1),(2),.... atau pola (2n),(3n+2),(4n-1) atau ganjil dan genap (even) & (odd)
+
+    pseudo-class yang berhubungan dengan posisi element(2)
+    :first-of-type = memilih elemen pertama dari sebuah jenis / tipe tag
+    :last-of-type = memilih elemen terakhir dari sebuah jenis / tipe tag
+    */
+
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: palegreen;
+}
+.hello:active {
+    font-style: italic;
+}
+.hello:visited {
+    color: pink ;
+} 
+li:first-child a:hover {
+    color: green;
+}
+p:first-of-type {
+    color: red;
+}
